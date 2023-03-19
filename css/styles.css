@@ -1,0 +1,243 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+  font-size: 14px;
+  letter-spacing: 0.03em ;
+  background-color: white;
+  display: block;
+  
+} 
+.contenedor {
+  width: 1200px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+button{
+  font-family:'Roboto', sans-serif;
+}
+a{
+  text-decoration:none;
+  color: #212121;
+}
+ul{
+  list-style: none;
+}
+
+/* -----HEADER----- */
+
+.logo{
+  color: #2196F3;
+  font-weight: 700;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.938em;
+  padding: 24px ;
+}
+.link{
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1em;
+  
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a:hover{
+  color: #2196F3;
+}
+.email-link, .telephone-link{
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1em;
+
+}
+.link-active{
+  color: #2196F3;
+   font-size: 14px;
+  font-weight: 500;
+  line-height: 1em;
+  letter-spacing: 0.02em;
+}
+.items{
+  display: flex;
+}
+.contact-header{
+  display: flex;
+}
+
+/* -----HERO---- */
+
+.hero{
+  background: #2F303A;
+  color: #fff;
+  
+}
+.hero .title{
+  font-size: 44px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-align: center;
+  line-height: 3.75em;
+  padding-top: 30px;
+
+}
+.hero .button-hero{
+  background-color: #2196F3;
+  color: #fff;
+  padding: 10px 32px;
+  display: block;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  line-height: 1.875em;
+  font-weight: 700;
+}
+
+/* -----------CARDS------------ */
+
+.title-advantages{
+  display: none;
+}
+
+.card-advantages{
+  width: 270px;
+}
+.title-details{
+  color: #212121;
+  font-size: 14px;
+  line-height: 1em;
+  font-weight: 700;
+
+}
+.card-text{
+  color: #757575;
+  line-height: 1.5em;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+
+/* --------ABOUT-------- */
+
+.title-about{
+  font-size: 36px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 2.637em;
+ 
+}
+.about-images-list{
+  margin-top: 55px;
+}
+
+
+
+
+/* --------------EQUIPEMENT----------- */
+
+
+.title-equipment{
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 2.637em;
+  
+}
+
+.card-equipment{
+  text-align: center;
+  width: 270px;
+  height: 368px;
+}
+.card-name{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.172em;
+}
+.card-profesion{
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.172em;
+  
+}
+
+
+footer{
+  background-color: #2F303A;
+  height: 252px;
+
+}
+.footer-city-link{
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+footer .email-link, .telephone-link{
+  color: #757575;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+
+
+/*-------Portafolio------*/
+.selector-button {
+  margin-top: 106px;
+}
+
+.selector-button-filter{
+  padding: 6px 24px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625em;
+  text-align: center;
+}
+
+
+.selector-button-filter:hover{
+  color: #fff;
+  background-color:#2196F3;
+}
+
+.filter-active{
+  background-color: #2196F3;
+  color: #fff;
+}
+.portfolio-card{
+  width: 370px;
+  height: 404px;
+  border: 1px solid;
+}
+.portfolio-title{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2.25em;
+  letter-spacing: 0.06em;
+}
+.portfolio-work{
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875em;
+  
+}
