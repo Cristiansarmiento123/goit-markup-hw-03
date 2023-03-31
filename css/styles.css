@@ -14,10 +14,13 @@ body{
   display: block;
   
 } 
-.contenedor {
+.container {
   width: 1200px;
   margin: 0 auto;
-  max-width: 100%;
+  padding: 15px;
+  right: 15px;
+  left: 15px;
+
 }
 button{
   font-family:'Roboto', sans-serif;
@@ -38,7 +41,7 @@ ul{
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.938em;
-  padding: 24px ;
+  padding: 24px 93px 25px 215px;
 }
 .link{
   font-size: 14px;
@@ -46,13 +49,18 @@ ul{
   line-height: 16px;
   letter-spacing: 0.02em;
   line-height: 1em;
+  padding: 32px;
   
 }
-.header{
+
+.header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
+
+
 
 header a:hover{
   color: #2196F3;
@@ -68,32 +76,46 @@ header a:hover{
 }
 .link-active{
   color: #2196F3;
-   font-size: 14px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 1em;
   letter-spacing: 0.02em;
 }
 .items{
   display: flex;
+  
 }
 .contact-header{
   display: flex;
+  padding: 32px;
 }
+
+  
 
 /* -----HERO---- */
 
 .hero{
   background: #2F303A;
   color: #fff;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  
+}
+.button-hero{
+  padding-bottom: 200px;
+  margin: 0 auto;
   
 }
 .hero .title{
   font-size: 44px;
   font-weight: 900;
   letter-spacing: 0.06em;
-  text-align: center;
-  line-height: 3.75em;
-  padding-top: 30px;
+  width: 696px;
+  margin: auto;
+  margin-bottom: 30px;
+
+
 
 }
 .hero .button-hero{
@@ -106,16 +128,26 @@ header a:hover{
   border-radius: 4px;
   line-height: 1.875em;
   font-weight: 700;
+  
 }
+.cards-advantages{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 10px;
+ padding-top: 95px;
+}
+
 
 /* -----------CARDS------------ */
 
 .title-advantages{
   display: none;
+
 }
 
 .card-advantages{
   width: 270px;
+  
 }
 .title-details{
   color: #212121;
@@ -129,6 +161,8 @@ header a:hover{
   line-height: 1.5em;
   font-size: 14px;
   font-weight: 400;
+  margin-top: 10px;
+  
 }
 
 
@@ -143,6 +177,20 @@ header a:hover{
 }
 .about-images-list{
   margin-top: 55px;
+  width: 373.16px;
+  height: 323.7px;
+  top: 1092.3px;
+  left: 215px;
+  
+  
+  
+}
+.about-images{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px
+  
+ 
 }
 
 
@@ -156,6 +204,8 @@ header a:hover{
   font-weight: 700;
   text-align: center;
   line-height: 2.637em;
+  margin-top: 188px;
+  margin-bottom: 50px;
   
 }
 
@@ -163,6 +213,13 @@ header a:hover{
   text-align: center;
   width: 270px;
   height: 368px;
+}
+
+.cards-equipments{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
 }
 .card-name{
   font-size: 16px;
@@ -199,8 +256,17 @@ footer .email-link, .telephone-link{
 
 
 /*-------Portafolio------*/
+
+
 .selector-button {
   margin-top: 106px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 512px;
+  padding-right: 520px;
+  margin-bottom: 50px;
+
 }
 
 .selector-button-filter{
@@ -217,6 +283,7 @@ footer .email-link, .telephone-link{
 .selector-button-filter:hover{
   color: #fff;
   background-color:#2196F3;
+  
 }
 
 .filter-active{
@@ -240,4 +307,15 @@ footer .email-link, .telephone-link{
   font-size: 16px;
   line-height: 1.875em;
   
+}
+.portfolio-cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 50px
+  
+}
+body {
+  width: 1200px;
+  margin: 0 auto;
 }
