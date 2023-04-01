@@ -14,13 +14,14 @@ body{
   display: block;
   
 } 
+
+
+
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding: 15px;
-  right: 15px;
-  left: 15px;
-
+ 
+  
 }
 button{
   font-family:'Roboto', sans-serif;
@@ -41,7 +42,7 @@ ul{
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.938em;
-  padding: 24px 93px 25px 215px;
+ 
 }
 .link{
   font-size: 14px;
@@ -166,6 +167,7 @@ header a:hover{
 }
 
 
+
 /* --------ABOUT-------- */
 
 .title-about{
@@ -173,6 +175,7 @@ header a:hover{
   text-align: center;
   font-weight: 700;
   line-height: 2.637em;
+  margin-top: 94px;
  
 }
 .about-images-list{
@@ -180,8 +183,6 @@ header a:hover{
   width: 373.16px;
   height: 323.7px;
   top: 1092.3px;
-  left: 215px;
-  
   
   
 }
@@ -315,7 +316,4 @@ footer .email-link, .telephone-link{
   margin-bottom: 50px
   
 }
-body {
-  width: 1200px;
-  margin: 0 auto;
-}
+
