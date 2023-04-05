@@ -18,7 +18,10 @@ body{
 .container {
   width: 1200px;
   margin: 0 auto;
- 
+  padding-left: 15px;
+  padding-right: 15px;
+  
+  
 }
 button{
   font-family:'Roboto', sans-serif;
@@ -40,7 +43,9 @@ ul{
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
   line-height: 1.938em;
-  padding-right: 93px;
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
   
  
 }
@@ -52,7 +57,8 @@ ul{
   line-height: 1em;
   padding: 32px;
   padding-right: 50px;
-
+  padding-top: 32px;
+  padding-bottom: 32px;
   
 }
 
@@ -77,6 +83,8 @@ header a:hover{
   line-height: 16px;
   letter-spacing: 0.02em;
   line-height: 1em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
 }
 .link-active{
@@ -92,12 +100,17 @@ header a:hover{
 }
 .contact-header{
   display: flex;
-  padding: 32px;
+ 
 }
 
   
 
 /* -----HERO---- */
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+  
+}
 
 .hero{
   background: #2F303A;
@@ -137,8 +150,8 @@ header a:hover{
 }
 .cards-advantages{
  display: flex;
- flex-wrap: wrap;
- gap: 10px;
+ flex-wrap: nowrap;
+ gap: 30px;
 }
 
 
@@ -150,7 +163,8 @@ header a:hover{
 }
 
 .card-advantages{
-  width: 270px;
+  flex-basis: calc((100%-90px)/4);
+  
   
 }
 .title-details{
@@ -179,24 +193,18 @@ header a:hover{
   text-align: center;
   font-weight: 700;
   line-height: 2.637em;
-  margin-top: 94px;
   margin-bottom: 55.05px;
  
 }
 .about-images-list{
-  margin-top: 55px;
-  width: 373.16px;
-  height: 323.7px;
-  top: 1092.3px;
+  flex-basis: calc((100%-90.78px)/2);
   
   
 }
 .about-images{
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px
-  
- 
+  flex-wrap: nowrap;
+  gap: 30.26px;
 }
 
 
@@ -210,7 +218,6 @@ header a:hover{
   font-weight: 700;
   text-align: center;
   line-height: 2.637em;
-  margin-top: 188px;
   margin-bottom: 50px;
   
 }
@@ -219,19 +226,26 @@ header a:hover{
   text-align: center;
   width: 270px;
   height: 368px;
+  flex-basis: calc((100%-97px)/3);
+  background: #FFFFFF;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
 }
 
 .cards-equipments{
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 94px;
+  flex-wrap: nowrap;
+  gap: 37px;
+
+
 
 }
 .card-name{
   font-size: 16px;
   font-weight: 500;
   line-height: 1.172em;
+  margin-bottom: 10px;
 }
 .card-profesion{
   color: #757575;
@@ -266,15 +280,18 @@ footer .email-link, .telephone-link{
 
 /*-------Portafolio------*/
 
+.portfolios {
+  padding-bottom: 131px;
+}
 
 .selector-button {
-  margin-top: 106px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 50px;
-  width: 453px;
   margin: 0 auto;
+  padding-right: 300px;
+  padding-left: 300px;
 
 }
 
@@ -283,18 +300,16 @@ footer .email-link, .telephone-link{
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.625em;
-  text-align: center;
-  margin-top: 144px;
-  margin-bottom: 56px;
   
+
 }
 
 
 .selector-button-filter:hover{
   color: #fff;
   background-color:#2196F3;
-  padding-right: 8px;
+  
+ 
   
 }
 
@@ -303,8 +318,10 @@ footer .email-link, .telephone-link{
   color: #fff;
 }
 .portfolio-card{
-  width: 370px;
-  height: 404px;
+  flex-basis: calc((50%-60px)/2);
+  background: #FFFFFF;
+  box-sizing: border-box;
+
   
 }
 .portfolio-title{
@@ -312,7 +329,7 @@ footer .email-link, .telephone-link{
   font-weight: 700;
   line-height: 2.25em;
   letter-spacing: 0.06em;
-  margin-top: 20px;
+  margin-bottom: 4px;
   
 }
 .portfolio-work{
@@ -320,20 +337,21 @@ footer .email-link, .telephone-link{
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875em;
-  margin-top: 4px;
+  
   
 }
 .portfolio-cards{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   gap: 30px;
-  margin-bottom: 30px  
+
 }
 
-footer{
-  margin-top: 82px;
+.footers {
+margin-top: 60px;
+
 }
-footer .logo {
-  padding-top: 60px;
-  display: inline-block
+.footer-city-link {
+margin-top: 9px;
+
 }
