@@ -150,7 +150,7 @@ header a:hover{
 }
 .cards-advantages{
  display: flex;
- flex-wrap: nowrap;
+ flex-wrap: wrap;
  gap: 30px;
 }
 
@@ -163,7 +163,7 @@ header a:hover{
 }
 
 .card-advantages{
-  flex-basis: calc((100%-90px)/4);
+  flex-basis: calc((100% - 90px) / 4);
   
   
 }
@@ -172,7 +172,7 @@ header a:hover{
   font-size: 14px;
   line-height: 1em;
   font-weight: 700;
-  margin-top: 95px;
+  
 
 }
 .card-text{
@@ -197,14 +197,14 @@ header a:hover{
  
 }
 .about-images-list{
-  flex-basis: calc((100%-90.78px)/2);
+  flex-basis: calc((100% - 60px)/ 3);
   
   
 }
 .about-images{
   display: flex;
-  flex-wrap: nowrap;
-  gap: 30.26px;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 
@@ -226,7 +226,7 @@ header a:hover{
   text-align: center;
   width: 270px;
   height: 368px;
-  flex-basis: calc((100%-97px)/3);
+  flex-basis: calc((100% - 90px) / 4);
   background: #FFFFFF;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -235,8 +235,8 @@ header a:hover{
 
 .cards-equipments{
   display: flex;
-  flex-wrap: nowrap;
-  gap: 37px;
+  flex-wrap: wrap;
+  gap: 30px;
 
 
 
@@ -254,11 +254,17 @@ header a:hover{
   line-height: 1.172em;
   
 }
+.names-profesions{
+  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-right: 44px;
+  padding-left: 45px;
+}
 
 
 footer{
   background-color: #2F303A;
-  height: 252px;
+  padding: 60px 0 60px 0;
 
 }
 .footer-city-link{
@@ -280,6 +286,7 @@ footer .email-link, .telephone-link{
 
 /*-------Portafolio------*/
 
+
 .portfolios {
   padding-bottom: 131px;
 }
@@ -290,8 +297,9 @@ footer .email-link, .telephone-link{
   align-items: center;
   margin-bottom: 50px;
   margin: 0 auto;
-  padding-right: 300px;
-  padding-left: 300px;
+  margin-right: 300px;
+  margin-left: 300px;
+
 
 }
 
@@ -300,8 +308,9 @@ footer .email-link, .telephone-link{
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
+  padding: 6px 18px 6px 17px;
+  margin-bottom: 50px;
   
-
 }
 
 
@@ -318,7 +327,7 @@ footer .email-link, .telephone-link{
   color: #fff;
 }
 .portfolio-card{
-  flex-basis: calc((50%-60px)/2);
+  flex-basis: calc((100% - 60px) /3);
   background: #FFFFFF;
   box-sizing: border-box;
 
@@ -337,7 +346,7 @@ footer .email-link, .telephone-link{
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875em;
-  
+
   
 }
 .portfolio-cards{
@@ -346,12 +355,7 @@ footer .email-link, .telephone-link{
   gap: 30px;
 
 }
-
-.footers {
-margin-top: 60px;
-
-}
-.footer-city-link {
-margin-top: 9px;
-
+.portfolio-profesion{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
