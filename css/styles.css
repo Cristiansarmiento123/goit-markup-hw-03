@@ -402,7 +402,7 @@ footer .email-link, .telephone-link{
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.title-footer{
+.titles-footer{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -412,8 +412,28 @@ letter-spacing: 0.03em;
 color: #FFFFFF;
 justify-content: center;
 align-items: center;
+margin-bottom: 20px;
 }
+
+
 .orden-footer{
   display: flex;
+  flex-wrap:wrap;
+  gap: 10px;
+
  
+}
+.list-ordens{
+  flex-basis: calc((100% - 40px) /5);
+ 
+
+}
+address{
+  display: flex;
+  flex-wrap:wrap;
+  gap: 156px;
+}
+
+.footer-contact .titles-footer{
+  flex-basis: calc((100% - 156px) /2);
 }
