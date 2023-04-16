@@ -12,7 +12,7 @@ body{
   letter-spacing: 0.03em ;
   background-color: white;
   display: block;
-  
+
 } 
 
 .container {
@@ -118,7 +118,11 @@ header a:hover{
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  
+  background-image: url('../images/icons.svg/fondo.svg');
+  background-position: center;
+
+ 
+
 }
 .button-hero{
   padding-bottom: 200px;
@@ -225,7 +229,7 @@ header a:hover{
 .card-equipment{
   text-align: center;
   width: 270px;
-  height: 368px;
+  height: 428px;
   flex-basis: calc((100% - 90px) / 4);
   background: #FFFFFF;
   border-radius: 0px 0px 4px 4px;
@@ -237,7 +241,6 @@ header a:hover{
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-
 
 
 }
@@ -254,11 +257,54 @@ header a:hover{
   line-height: 1.172em;
   
 }
+
+.list-ordens:hover{
+  background: #2196F3;
+}
+
+
 .names-profesions{
   padding-bottom: 30px;
   padding-top: 30px;
   padding-right: 44px;
   padding-left: 45px;
+}
+.list-ordens{
+  flex-basis: calc((100% - 30px) / 4);
+  padding:8px;
+  border-radius: 100%;
+  
+}
+
+.orden{
+  display: flex;
+  flex-wrap: wrap;
+  gap:10px;
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
+.title-clientes{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+margin-top: 153px;
+
+}
+.list-clientes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 44px;
+}
+
+.list-cliente {
+ flex-basis: calc((100% - 150px) / 6); 
+ margin-bottom: 151px;
 }
 
 
@@ -327,7 +373,7 @@ footer .email-link, .telephone-link{
   flex-basis: calc((100% - 60px) /3);
   background: #FFFFFF;
   box-sizing: border-box;
-
+  
   
 }
 .portfolio-title{
@@ -355,4 +401,19 @@ footer .email-link, .telephone-link{
 .portfolio-profesion{
   padding-top: 20px;
   padding-bottom: 20px;
+}
+.title-footer{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+justify-content: center;
+align-items: center;
+}
+.orden-footer{
+  display: flex;
+ 
 }
